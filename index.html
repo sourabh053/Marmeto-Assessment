@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Category tabs</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="first-half">
+        <div id="product-image"></div>
+        <div>
+          <div class="thumbnails"></div>
+          <div class="thumbnails"></div>
+          <div class="thumbnails"></div>
+          <div class="thumbnails"></div>
+        </div>
+      </div>
+      <div id="second-half">
+        <p class="vendor"></p>
+        <h3 class="product-title"></h3>
+        <hr />
+        <div class="price-cont">
+          <span class="price"></span>
+          <span class="percentage-off"></span>
+        </div>
+        <p class="compare-at-price"></p>
+        <hr />
+        <div class="color-cont">
+          <p>Choose a Color</p>
+          <div class="color-selecter">
+            <div class="color Yellow sel">
+              <img src="./correct.svg"/ width="16px">
+            </div>
+            <div class="color Green">
+              <img src="./correct.svg"/ width="16px">
+            </div>
+            <div class="color Blue">
+              <img src="./correct.svg"/ width="16px">
+            </div>
+            <div class="color Pink">
+              <img src="./correct.svg"/ width="16px">
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="size-cont">
+          <p>Choose a Size</p>
+          <div class="size-selecter">
+            <div>
+              <input
+                type="radio"
+                id="small"
+                name="selected-size"
+                value="small"
+              />
+              <label for="small"></label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="medium"
+                name="selected-size"
+                value="medium"
+                checked
+              />
+              <label for="medium" style="color: rgb(58, 73, 128); font-weight: 600"></label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="large"
+                name="selected-size"
+                value="large"
+              />
+              <label for="large"></label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="Extra Large"
+                name="selected-size"
+                value="Extra Large"
+              />
+              <label for="Extra Large"> </label>
+            </div>
+            <div>
+              <input type="radio" id="XXL" name="selected-size" value="XXL" />
+              <label for="XXL"></label>
+            </div>
+          </div>
+        </div>
+        <div class="btn-cont">
+          <div>
+            <button class="minus">-</button>
+            <span class="counter">1</span>
+            <button class="plus">+</button>
+          </div>
+          <button class="add-to-cart">
+            <img src="./Frame.svg" width="10px" />
+            Add To Cart
+          </button>
+        </div>
+        <div class="after-adding"></div>
+        <hr />
+        <div class="description"></div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
