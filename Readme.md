@@ -9,7 +9,7 @@ I made this project using HTML/CSS and vanila JavaScript without using any third
 - Flexbox
 - JavaScript
 
-### working
+### Working
 
 We first have to select a color according to your choice then we have to choose the size and then we can choose the number of products we are buying and then at the end when we click at the add to cart button and we get a message written below the add to cart button saying that the product of your choice have been added to the cart. This message is visible for some time then it disappears until you click on the add to cart button again.
 
