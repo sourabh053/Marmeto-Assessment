@@ -90,7 +90,7 @@ function updateUI({ product }) {
   for (let i = 0; i < labelElms.length; i++) {
     if (i === 3) {
       let temp = sizeArr[i].split(" ");
-      labelElms[i].innerHTML = `<div style="display: flex; gap: 2px">
+      labelElms[i].innerHTML = `<div class='extra'>
         <span>${temp[0]}</span>
         <span>${temp[1]}</span>
       </div>`;
