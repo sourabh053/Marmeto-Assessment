@@ -15,4 +15,4 @@ We first have to select a color according to your choice then we have to choose 
 
 ### Links
 
-- Live Site URL: [Live site](https://venerable-medovik-c380bd.netlify.app/)
+- Live Site URL: [Live site](https://gregarious-otter-5e72d9.netlify.app/)
